@@ -90,3 +90,30 @@ p{
     grid-column-start: 1;
     grid-column-end: 9;
 }
+
+@media screen and (max-width: 900px) {
+    main {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    section {
+        display: block;
+        padding: 15px;
+    }
+    footer {
+        margin-top: 25px;
+    }
+    main img{
+        width: 95%;
+        text-align: center;
+        margin: 0;
+        padding: 5px;
+    }
+}
