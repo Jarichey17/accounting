@@ -89,6 +89,7 @@ p{
     width: 95%;
     grid-column-start: 1;
     grid-column-end: 9;
+    font-size: large;
 }
 
 @media screen and (max-width: 900px) {
