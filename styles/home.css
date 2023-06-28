@@ -70,7 +70,7 @@ main{
 
 main img{
     width: 95%;
-    margin-top: 15px;
+    margin: 15px;
     height: 100%;
 }
 
@@ -86,7 +86,7 @@ main img{
 
 p{
     text-align: center;
-    width: 100%;
+    width: 95%;
     grid-column-start: 1;
     grid-column-end: 9;
 }
