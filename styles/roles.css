@@ -102,45 +102,55 @@ nav {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
-/* main{
+ main{
     display: grid;
 }
 
 main img{
     width: 95%;
     margin-top: 15px;
-    height: 90%;
-}
-
-.balance-books{
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row-start: 1;
-}
-
-.calculator{
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 5;
 }
 
 p{
     text-align: center;
     width: 95%;
-    grid-column-start: 1;
+    grid-column-start: 5;
     grid-column-end: 9;
     font-size: large;
 }
 
-.block1{
+.accordion, .panel{
+    width: 95%;
     grid-column-start: 5;
     grid-column-end: 9;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
-.block2{
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 5;
-} */
+@media screen and (max-width: 900px) {
+    main {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    section {
+        display: block;
+        padding: 15px;
+    }
+    footer {
+        margin-top: 25px;
+    }
+    main img{
+        width: 95%;
+        text-align: center;
+        margin: 0;
+        padding: 5px;
+    }
+}
