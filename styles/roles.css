@@ -66,8 +66,8 @@ nav {
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: #B2D2F6;
+    color: #7B34E0;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -75,11 +75,13 @@ nav {
     border: none;
     outline: none;
     transition: 0.4s;
+    font-size: larger;
 }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #127FA3;
+    color: white;
 }
   
   /* Style the accordion panel. Note: hidden by default */
@@ -93,7 +95,7 @@ nav {
 .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
-    color: #777;
+    color: #7B34E0;
     float: right;
     margin-left: 5px;
 }
