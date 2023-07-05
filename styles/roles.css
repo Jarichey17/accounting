@@ -112,20 +112,35 @@ main img{
     grid-column-start: 1;
     grid-column-end: 5;
 }
+.text{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 10;
+    padding: 18px;
+    width: 100%;
+}
+
+.planning{
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.analyze-ratios{
+    grid-row-start: 5;
+    grid-row-end: 9;
+}
 
 p{
     text-align: center;
     width: 95%;
-    grid-column-start: 5;
-    grid-column-end: 9;
     font-size: large;
+    margin-top: 10px;
 }
 
 .accordion, .panel{
     width: 95%;
-    grid-column-start: 5;
-    grid-column-end: 9;
     text-align: center;
+    margin-top: 5px;
 }
 
 @media screen and (max-width: 900px) {
